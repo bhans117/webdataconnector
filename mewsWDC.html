@@ -16,7 +16,15 @@
 <body>
     <div class="container container-table">
         <div class="row vertical-center-row">
-            <div class="text-center col-md-4 col-md-offset-4">
+            <div style="width: 400px; display: flex; flex-direction: column;">
+                <div style="margin-top: 20px">API URL</div>
+                <input type="text" id="api_url" value="http://localhost:8889/api.mews-demo.com">
+                <div style="margin-top: 20px">Access Token</div>
+                <input type="text" id="access_token" value="CC150C355D6A4048A220AD20015483AB-B6D09C0C84B09538077CB8FFBB907B4">
+                <div style="margin-top: 20px">Client Token</div>
+                <input type="text"id="client_token" value="E916C341431C4D28A866AD200152DBD3-A046EB5583FFBE94DE1172237763712">
+                <div style="margin-top: 20px">Client Name</div>
+                <input type="text" id="client_name" value="Sample Client 1.0.0">
                 <button type="button" id="submitButton" class="btn btn-success" style="margin: 10px;">Get Mews Data!</button>
             </div>
         </div>
